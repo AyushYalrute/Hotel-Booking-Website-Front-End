@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> First Project </title>
+	<script src="https://kit.fontawesome.com/24496fcc81.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="Style.css">
+	<link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
+
+</head>
+<body>
+
+	<section class="hero-section">
+		<div class="hero-text">
+			<h1 style="font-size: 50px; margin-bottom: 10px;">Welcome to Star Hotel, Goa</h1>
+			<p style="font-size: 20px; margin: 20px">Your retreat to luxury and unforgettable moments</p>
+			<button class="book-button">Book Now</button>			
+		</div>
+
+	</section>
+
+	<h1 class="about-heading">About Us</h1>
+	<section class="about-section">
+		
+		<div class="about-us">
+			<p>Situated in the heart of Mumbai's Heritage Precinct on D.N Road, Residency Hotel is just 100 meters from the Victoria Terminus Station (UNESCO Site) and within walking distance to Gateway Of India, Colaba Causeway, Churchgate, Nariman Point, Flora Fountain, Horniman Circle/Asiatic Library, Rajabai Clock Tower & The Prince of Wales Museum.</p>
+			<br>
+			<p>Our Contemporary Modern Rooms are equipped with flat screen T.V with Satellite channels, mini fridges, tea/coffee maker, in room safes, shower cubicles with rain showers, wi-fi free in rooms with free email access at the lobby, with daily newspaper & buffet breakfast.</p>
+			
+				<button class="know-button">Know More...</button>
+			
+		</div>
+		<div class="facilities">
+			<h3>Facilities we have:</h3>
+			<ul>
+				<li><i class="fa-solid fa-wifi"></i>High speed internet</li>
+				<li><i class="fa-solid fa-bowl-food"></i>Complementary breakfast</li>
+				<li><i class="fa-solid fa-water-ladder"></i>Swimming pool</li>
+				<li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+				<li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+			</ul>
+		</div>
+
+	</section>
+	<h1 class="room-heading">Room Types:</h1>
+	<section class="room-type-container">
+		<div class="room-images">
+			<img src="room.jpg.jpg" alt="room-image">
+		</div>
+		<div class="room-list">
+			<h4>Single Occupancy Room</h4>
+			<p> A cozy, well-appointed room designed for one guest,
+				featuring a single bed and all necessary amenities for 
+				a comfortable solo stay, ideal for travelers seeking 
+				a private space at a cost-effective rate. </p>
+
+			<h4>Family Room</h4>
+			<p>A larger room specifically designed to comfortably accommodate families with children,
+				 often featuring additional beds like sofa beds, separate sleeping areas for parents
+				and kids, and child-friendly amenities like cribs, toys, or children's TV channels,
+				 ensuring a pleasant stay for the whole family</p>
+
+			<h4>Duplex Room</h4>
+			<p>A unique, multi-level accommodation featuring a split layout, typically with a sleeping
+				 area on the lower floor and a separate living space or additional sleeping area on the 
+				 upper floor, accessible by stairs, providing extra privacy and space for guests seeking
+				 a more spacious stay</p>
+
+		</div>
+	</section>
+	<div class="help-button">
+		<h4>Need Help ?</h4>
+	</div>
+	<h2 class="form-heading">Fill the form for booking</h2>
+	<section class="form-container">
+		<form>
+			<div class="form-group">
+				<label for="name">Your Full Name</label> <br>
+				<input type="text" id="name" required>
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label> <br>
+				<input type="email" id="email" required>
+			</div>
+			<div class="form-group">
+				<label for="booking-date">Date of Booking</label> <br>
+				<input type="date" id="booking-date" required>
+			</div>
+			<div class="form-group">
+				<label for="room-type">Select Room Type</label> <br>
+				<select name="room-type" id="room-type" required>
+					<option value="" selected disabled>Select...</option>
+					<option value="single room" required>Single Room</option>
+					<option value="family room" required>Family Room</option>
+					<option value="duplex room" required>Duplex Room</option>
+				</select>
+			</div> <br>
+			<input type="submit" value="Book">
+		</form>
+	</section>
+
+</body>
+</html>
